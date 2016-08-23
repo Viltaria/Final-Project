@@ -351,19 +351,6 @@
     "latlong":"3.29,22.52"
   },
   {
-    "_id": "57ab8cde1eff02897b163eec",
-    "Common name": "Sivatherium",
-    "Scientific name": "Sivatherium",
-    "date": "6000-01-01T00:00:00Z",
-    "Range": "Africa",
-    "Image" :  "--",
-    "Description": "--",
-    "Type": "land",
-    "latitude" : "3.29",
-    "longitude" : "22.52",
-    "latlong":"3.29,22.52"
-  },
-  {
     "_id": "57ab8d111eff02897b163eed",
     "Common name": "Atlas bear",
     "Scientific name": "Ursus arctos crowtheri",
@@ -1025,49 +1012,10 @@
     "latlong" : "-16.9,-57.74"
   },
   {
-    "_id": "57ab8d8c1eff02897b163f20",
-    "Common name": "Canis nehringi",
-    "Scientific Name": "Canis nehringi",
-    "date": "8000-01-01T00:00:00Z",
-    "Range": "South America",
-    "Image" :  "--",
-    "Description": "--",
-    "Type": "land",
-    "latitude" : "-16.95",
-    "longitude" : "-57.74",
-    "latlong" : "-16.9,-57.74"
-  },
-  {
-    "_id": "57ab8d8c1eff02897b163f21",
-    "Common name": "Cuvieronius",
-    "Scientific Name": "Cuvieronius sp.",
-    "date": "4000-01-01T00:00:00Z",
-    "Range": "South America",
-    "Image" :  "--",
-    "Description": "--",
-    "Type": "land",
-    "latitude" : "-16.95",
-    "longitude" : "-57.74",
-    "latlong" : "-16.9,-57.74"
-  },
-  {
     "_id": "57ab8d8c1eff02897b163f22",
     "Common name": "Dire wolf",
     "Scientific Name": "Canis dirus",
     "date": "1100-01-01T00:00:00Z0",
-    "Range": "South America",
-    "Image" :  "--",
-    "Description": "--",
-    "Type": "land",
-    "latitude" : "-16.95",
-    "longitude" : "-57.74",
-    "latlong" : "-16.9,-57.74"
-  },
-  {
-    "_id": "57ab8d8c1eff02897b163f23",
-    "Common name": "Ground sloths",
-    "Scientific Name": "Catonyx",
-    "date": "6000-01-01T00:00:00Z",
     "Range": "South America",
     "Image" :  "--",
     "Description": "--",

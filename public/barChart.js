@@ -129,7 +129,7 @@ function BarChart() {
       bars
         .transition().duration(500)
         .attr('x', x)
-        .attr('width', width)
+        .attr('width', width + 2)
         .attr('y', y)
         .attr('height', height)
         .attr('fill', fill)

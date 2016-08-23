@@ -1,11 +1,11 @@
 const c3 = require('c3');
 const d3 = require('d3');
 
-const data = d3.json('../animalData.json', (data) => {
+const data = d3.json('../animalData.json', (dat) => {
   let north = 0;
   let south = 0;
 
-  data.forEach((element) => {
+  dat.forEach((element) => {
     const parsed = parseFloat(element.latitude);
     if (parsed > 0) return north++;
     return south++;

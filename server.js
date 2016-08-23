@@ -24,12 +24,9 @@ app.use(webpackDevMiddleware(compiler, {
     colors: true,
   },
 }));
+app.use(graffiti.express({ schema }));
 
 app.get('/', (req, res) => res.sendFile('public/index.html'));
-
-app.use(graffiti.express({
-  schema,
-}));
 
 app.get('/test', (req, res) => {
   Animal.find((err, animals) => {

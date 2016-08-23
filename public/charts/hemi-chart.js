@@ -59,7 +59,7 @@ window.onload = () => {
   document.getElementById('toggleAfricaChart').addEventListener('click', () => {
     africaChart('../animalData.json')
       .then((continent) => {
-        let chart = c3.generate({
+        const chart = c3.generate({
           bindto: '#chart-viewer',
           data: {
             columns: [
