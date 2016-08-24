@@ -11,6 +11,7 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 3001;
 const compiler = webpack(config);
+require('dotenv').config();
 
 mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/et');
 mongoose.Promise = global.Promise;
