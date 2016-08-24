@@ -59,7 +59,60 @@ Map
 }
 
 #additional-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: strech;
+  background-color: blue;
+  opacity: 0.6;
   padding-top: 100px;
+  height: 300px;
+}
+
+#panel-1 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  width: 33%;
+  align-items: stretch;
+}
+
+.button-jar {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  width: 30%;
+}
+
+#chart-viewer1 {
+  background-color: red;
+  width: 69%;
+}
+
+#chart-viewer2 {
+  background-color: green;
+  width: 69%;
+}
+
+#chart-viewer3 {
+  background-color: yellow;
+  width: 69%;
+}
+
+#panel-2 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  width: 33%;
+  align-items: stretch;
+}
+
+#panel-3 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  width: 33%;
+  align-items: stretch;
 }
 
 #header-div {

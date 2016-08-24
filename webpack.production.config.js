@@ -1,16 +1,11 @@
 const webpack = require('webpack');
-const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 module.exports = {
   entry: [
     './entry.js',
   ],
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new LiveReloadPlugin()
-  ],
   output: {
-    path: `${__dirname}public`,
+    path: `${__dirname}/public`,
     filename: 'bundle.js',
   },
   module: {
