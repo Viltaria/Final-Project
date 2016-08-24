@@ -2,6 +2,8 @@ const d3 = require('d3');
 const c3 = require('c3');
 const charts = require('./conti-chart');
 
+//Fix this using multidimensional arrays?
+
 document.getElementById('toggleHemiChart').addEventListener('click', () => {
   charts.hemiChart('../animalData.json')
     .then((poles) => {
@@ -274,3 +276,5 @@ document.getElementById('togglePresent').addEventListener('click', () => {
     })
     .catch((err) => console.log(err));
 });
+
+
